@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>HTML LESSON 3</title>
+        <link rel="shortcut icon" href="img/HTML.png">
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="./dist/css/style.min.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <span class="text">HTML LESSON 3</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <span class="entavernagir1 ">Fieldset - Legend</span>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-sm-12 text-justify">
+
+
+                    <span class="text-left das ">Fieldset թեգը իրենից ներկայացնում է տարածք,որի մեջ կարող ենք ավելացնել տարբեր էլեմենտներ,նրա առանձնահատկությունը կայանու է նրանում,որ նա իր մեջ ունի defolt անկյունագիծ և իր մյուս legend թեգի օգնությամբ վերնագիրը գրում է հենց իր անկյունագծի վրա։
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <span class="entavernagir1 ">Form</span>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-sm-12 text-justify">
+
+
+                    <span class="text-left das ">Form թեգը զույգ թեգ է և նախատեսված է մեկ կամ մի քանի տվլայներ միանգամից վերցնելու և DataBasa կամ այլ տեղ ուղարկելու համար։Այն նախատեսված է կայքի ֆունկցիոնալ մասի հետ աշխատանքի համար։Այն ունի method ատրիբուտը,որը ունի երկու արժեք․՝ get / post :Սակայն դրանց մասին կխոսենք Back - ի դասընթացների ժամանակ։
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <span class="entavernagir1 ">Input - Մուտքագրման դաշտեր</span>
+                </div>
+            </div>
+            <div class="row mt-5" id="bacatrutyun">
+                <div class="col-sm-4">
+                    &lt;input type="text" &gt;
+                </div>
+                <div class="col-sm-8 text-justify">Սա մեզ համար ստեղծում է դաշտ,որի մեջ մենք կարող ենք մուտքագրել և տեքստ և թվեր։Այն ունի պարտադիր ատրիբուտ․՝ type,որի միջոցով մենք որոշում ենք Input դաշտի տեսակը։Այն ունի placeholder ցանկալի ատրիբուտը,որի միջոցով մենք կարող ենք Input դաշտի վրա նախապես պատկերել թե ինչ պետք է լրացվի այս դաշտում։ </div>
+            </div>
+            <div class="row" id="bacatrutyun">
+                <div class="col-sm-4">
+                    &lt;label for="id"&gt;
+                    <br>
+                    Name
+                    <br>
+                    &lt;input type="text" id="id" &gt; &lt; /label &gt;
+
+                    <br>
+                    <br>
+                    Նաև Կարող է մեր input դաշտը լինել label ից դուրս
+                    <br>
+                    <br>
+                    
+                    &lt;label for="id"&gt;
+                    Name
+                    <br>
+                    &lt; /label &gt;
+                    <br>
+                    &lt;input type="text" id="id" &gt;
+                </div>
+                <div class="col-sm-8 text-justify">Label թեգը նախատեսված է իր պարունակության վրա click անելու դեպքում իրեն կցված input դաշտը ակտիվացնելու համար։Այն ունի for պարտադիր ատրիբուտը,որի մեջ լրացվում է այն input դաշտի id - ին,որը մենք ցանկանում ենք որպեսզի ակտիվանա label թեգի պարունակության վրա click անելուց։Ուշադրություն դարձրեք նույն id - ին երկրորդ անգամ չենք կարող օգտագործել։Այս թեգը աշխատում է բոլոր input - երի հետ։ </div>
+            </div>
+            <div class="row" id="bacatrutyun">
+                <div class="col-sm-4">
+                    &lt;input type="number"&gt;
+                </div>
+                <div class="col-sm-8 text-justify">Սա input -է որի մեջ կարող ենք գրել միայն թվեր, չենք կարող օգտագործել բացատ(space), և input -ի մեջ կստեղծվի երկու կոճակ որոնց վրա սեղմելիս input -ի մեջ գրված թիվը մեկով կավելանա կամ մեկով կնվազի</div>
+            </div>
+            <div class="row" id="bacatrutyun">
+                <div class="col-sm-4">
+                    &lt;input type="email"&gt;
+                </div>
+                <div class="col-sm-8 text-justify">Սա input -է որի միջոցով կստուգվի եթե գրված չե @ ապա խնդիր կտա և կասի որ գրենք @</div>
+            </div>
+            <div class="row" id="bacatrutyun">
+                <div class="col-sm-4">
+                    &lt;input type="password"&gt;
+                </div>
+                <div class="col-sm-8 text-justify">Սա input -է որը Նախատեսված է գաղտնաբառներ գրելու համար, և նրա մեջ գրված տեքստը կամ թվերը ցույց չի տալիս</div>
+            </div>
+            <div class="row" id="bacatrutyun">
+                <div class="col-sm-4">
+                    &lt;input type="date"&gt;
+                </div>
+                <div class="col-sm-8 text-justify">Սա input -է որը Նախատեսված է ամսաթիվ ընտրելու համար</div>
+            </div>
+            <div class="row " id="bacatrutyun">
+                <div class="col-sm-4">
+                    &lt;input type="radio" &gt;
+                </div>
+                <div class="col-sm-8 text-justify">Այս input - ի միջոցով մենք ստեղծում ենք սեռերի համար նախատեսված կոճակներ։ </div>
+            </div>
+            <div class="row " id="bacatrutyun">
+                <div class="col-sm-4">
+                    &lt;input type="checkbox" &gt;
+                </div>
+                <div class="col-sm-8 text-justify">Այս input - ը նախատեսված է հարցերի դիմաց պտիչկա դնելու համար։ </div>
+            </div>
+            <div class="row " id="bacatrutyun">
+                <div class="col-sm-4">
+                    &lt;select &gt;&lt;/select &gt;
+                </div>
+                <div class="col-sm-8 text-justify">Select զույգ թեգը մեզ հնարավորություն է տալիս ստեղծել հարցերի պատսասխաններ մեկ պատուհանի մեջ։Այն միայն դաշտն է ապպահովվում։ Հարցի պատասխանները կամ այլ տվլայլներ լրացվում են option զույգ թեգի օգնությամբ։</div>
+            </div>
+            <div class="row " id="bacatrutyun">
+                <div class="col-sm-4">
+                    &lt;textarea &gt;&lt;/textarea &gt;
+                </div>
+                <div class="col-sm-8 text-justify">Այս թեգը ստեղծում է տեքստի համար նախատեսված դաշտ,սակայն ունի մեկ առանձնահատկություն ՝ մենք կարող ենք նրա չափերը փոփոխել հենց բրաուզերի մեջ։</div>
+            </div>
+            <div class="row " id="bacatrutyun">
+                <div class="col-sm-4">
+                    &lt;input type="file" &gt;
+                </div>
+                <div class="col-sm-8 text-justify">Սա input -է որի միջոցով կարող ենք ուղարկել ֆայլեր, նկարներ, տեսանյութեր</div>
+            </div>
+            <div class="row " id="bacatrutyun">
+                <div class="col-sm-4">
+                    &lt;input type="reset" &gt;
+                </div>
+                <div class="col-sm-8 text-justify">Այս կոճակի օգնությամբ մենք կարողանում ենք միանգամից ջնջել form թեգի մեջ գտնվող բոլոր տվյալները(Կարևոր պայման․՝ այն պետք է անպայման գտնվի form թեգի ներսում։)Այն ունի value պարտադիր ատրիբուտը,որի արժեքը հենց մեր input - ի անունն է,որի միջոցով այն երևում է բրաուզերում։</div>
+            </div>
+            <div class="row " id="bacatrutyun">
+                <div class="col-sm-4">
+                    &lt;input type="submit" &gt;
+                </div>
+                <div class="col-sm-8 text-justify">Այս կոճակի օգնությամբ մենք կարողանում ենք միանգամից հավաքագրել և ինչ - որ տեղ ուղարկել form թեգի մեջ գտնվող բոլոր տվյալները(Կարևոր պայման․՝ այն պետք է անպայման գտնվի form թեգի ներսում։)Այն ունի value պարտադիր ատրիբուտը,որի արժեքը հենց մեր input - ի անունն է,որի միջոցով այն երևում է բրաուզերում։</div>
+            </div>
+            <div class="row " id="bacatrutyun">
+                <div class="col-sm-4">
+                    &lt;input type="button" &gt;
+                </div>
+                <div class="col-sm-8 text-justify">Հանդիսանում է սովորական կոճակ</div>
+            </div>
+            <div class="row " id="bacatrutyun">
+                <div class="col-sm-4">
+                    &lt;button type="submit" &gt;&lt;/button &gt;
+                </div>
+                <div class="col-sm-8 text-justify">Հանդիսանում է սովորական կոճակ, նրա միջոցով նույնպես կարող ենք form -ոմ գրված ինֆորմացիյաները ուղարկել, այսինքն սա ունի նույն ֆունկցիոնալը ինչպես որ &lt;input&ThinSpace;&ThinSpace;type="submit"&gt;, խորհուրդ է տրվում օգտագործել այս button -ը քանի որ այն ավելի հարմար է, և բացի այդ բոլորը հիմնականում օգտագործում են այս button -ը</div>
+            </div>
+            <div class="row my-5">
+                <div class="col-sm-12 text-center">
+                    <span class="entavernagir1 ">Input Attributes - Մուտքագրման դաշտի ատրիբուտներ</span>
+                </div>
+            </div>
+            <div class="row mt-5" id="bacatrutyun">
+                <div class="col-sm-4">
+                    required
+                </div>
+                <div class="col-sm-8 text-justify">Նրա միջոցով տվյալները ուղարկվելիս կստուգվի տվյալ դաշտը լրացված է թե ոչ, եթե ոչ ապա խնդիր ցույց կտա</div>
+            </div>
+            <div class="row mt-5" id="bacatrutyun">
+                <div class="col-sm-4">
+                    placeholder=" "
+                </div>
+                <div class="col-sm-8 text-justify">Նրա միջոցով կարող ենք դաշտի մեջ գրել ինչոր նկարագրություն, ( երբ սկսեք գրել դաշտի մեջ նկարագրությունը կկորչի )</div>
+            </div>
+            <div class="row mt-5" id="bacatrutyun">
+                <div class="col-sm-4">
+                    value=" "
+                </div>
+                <div class="col-sm-8 text-justify">Նրա միջոցով կարող ենք դաշտի մեջ գրել ինչոր տեքստ, ( եթե սկսեք գրել դաշտի մեջ այս տեքստը չի կորչի )</div>
+            </div>
+            <div class="row mt-5" id="bacatrutyun">
+                <div class="col-sm-4">
+                    minlength=" "
+                </div>
+                <div class="col-sm-8 text-justify">Նրա միջոցով կարող ենք նշել թե արնվազն քանի նիշ պետք է ունենա տվյալ դաշտը</div>
+            </div>
+            <div class="row mt-5" id="bacatrutyun">
+                <div class="col-sm-4">
+                    maxlength=" "
+                </div>
+                <div class="col-sm-8 text-justify">Նրա միջոցով կարող ենք նշել թե առավելագույնը քանի նիշ պետք է ունենա տվյալ դաշտը</div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-sm-12 text-justify">
+
+
+                    <span class="text-left das ">Տնային աշխատանք․՝ Ստեղծել Registration - Form ` Օգտագործելով բոլոր input - ները և fieldset, legend և form թեգերը։
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+
+</html>

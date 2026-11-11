@@ -1,0 +1,175 @@
+body {
+  background-image: radial-gradient(circle, #1b1b1c, #151e25, #032326, #03271a, #1b2702);
+}
+
+.text {
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-size: 6vw;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, red, #feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 3s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+.text1 {
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-size: 3.5vw;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, silver, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue1 3s infinite linear;
+}
+
+@-webkit-keyframes hue1 {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+#for_texts {
+  color: lightcoral;
+  font-size: 1.8vw;
+  font-style: italic;
+  font-family: cursive;
+}
+
+#for_texts #left {
+  color: red;
+  font-size: 1.6vw;
+  font-style: italic;
+  font-family: cursive;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+#for_texts #right {
+  color: red;
+  font-size: 1.6vw;
+  font-style: italic;
+  font-family: cursive;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+#himnakan #left {
+  color: red;
+  font-size: 1.6vw;
+  font-style: italic;
+  font-family: cursive;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+#himnakan #right {
+  color: red;
+  font-size: 1.6vw;
+  font-style: italic;
+  font-family: cursive;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.text2 {
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-size: 3.5vw;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, silver, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue1 3s infinite linear;
+}
+
+@-webkit-keyframes hue1 {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+#text_tags #left {
+  color: red;
+  font-size: 1.6vw;
+  font-style: italic;
+  font-family: cursive;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+#text_tags #right {
+  color: red;
+  font-size: 1.6vw;
+  font-style: italic;
+  font-family: cursive;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+#home {
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-size: 1.5vw;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, yellow, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue1 3s infinite linear;
+}
+
+@-webkit-keyframes hue1 {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+/*# sourceMappingURL=style.css.map */
